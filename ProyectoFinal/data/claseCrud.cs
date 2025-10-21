@@ -23,10 +23,16 @@ namespace ProyectoFinal.data
             Conexion = new SqlConnection(Cadena);
         }
         //Constructor para conectar, debe tener el mismo nombre de la Clase
+        
+
+        /*
         public ClaseCRUD()
         {
             Conectar();
+
+            return ;
         }
+        */
         //Método para insertar nuevo registros a una tabla
         public bool Insertar(string Tabla, string Campos, string Valores)
         {

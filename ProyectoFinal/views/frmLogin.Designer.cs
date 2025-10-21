@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class login
+    partial class frmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(72, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 30);
+            this.label1.Size = new System.Drawing.Size(61, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "usuario";
             // 
@@ -86,7 +86,7 @@
             this.txtContra.Size = new System.Drawing.Size(209, 26);
             this.txtContra.TabIndex = 5;
             // 
-            // login
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,8 +97,9 @@
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "login";
+            this.Name = "frmLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

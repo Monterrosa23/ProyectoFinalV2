@@ -48,8 +48,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,11 +68,29 @@
     <Compile Include="controllers\autenticador.cs" />
     <Compile Include="controllers\usuarioController.cs" />
     <Compile Include="data\claseCrud.cs" />
-    <Compile Include="login.cs">
+    <Compile Include="views\frmPrestamos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.cs">
-      <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="views\frmPrestamos.Designer.cs">
+      <DependentUpon>frmPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\frmEditorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmEditorial.Designer.cs">
+      <DependentUpon>frmEditorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\frmAutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmAutores.Designer.cs">
+      <DependentUpon>frmAutores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="models\autor.cs" />
     <Compile Include="models\editorial.cs" />
@@ -78,8 +100,29 @@
     <Compile Include="models\usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="views\frmLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmLibros.Designer.cs">
+      <DependentUpon>frmLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\multas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\multas.Designer.cs">
+      <DependentUpon>multas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="views\frmPrestamos.resx">
+      <DependentUpon>frmPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmEditorial.resx">
+      <DependentUpon>frmEditorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmAutores.resx">
+      <DependentUpon>frmAutores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,6 +133,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="views\frmLibros.resx">
+      <DependentUpon>frmLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\multas.resx">
+      <DependentUpon>multas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -105,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="helpers\" />
-    <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="database\baseProyecto.mdf">
