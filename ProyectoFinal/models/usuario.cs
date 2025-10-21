@@ -10,7 +10,9 @@ namespace ProyectoFinal.models
     {
         public int id {  get; set; }
 
-        public string password { get; set; }
+        public string nombreUsuario {  get; set; }
+
+        public string contra { get; set; }
 
         public int idRol {  get; set; }
 

@@ -61,6 +61,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controllers\autenticador.cs" />
+    <Compile Include="controllers\usuarioController.cs" />
+    <Compile Include="data\claseCrud.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,8 +104,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controllers\" />
-    <Folder Include="data\" />
     <Folder Include="helpers\" />
     <Folder Include="views\" />
   </ItemGroup>

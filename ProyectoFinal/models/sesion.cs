@@ -11,7 +11,7 @@ namespace ProyectoFinal.models
         public static int userId { get; set; }
         public static string name { get; set; }
 
-        public static string rolId { get; set; }
+        public static int rolId { get; set; }
 
         public static string rolName { get; set; }
 

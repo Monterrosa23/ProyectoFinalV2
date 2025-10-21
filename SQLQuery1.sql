@@ -1,0 +1,1 @@
+﻿alter table usuario 	add nombreUsuario nvarchar(100);
