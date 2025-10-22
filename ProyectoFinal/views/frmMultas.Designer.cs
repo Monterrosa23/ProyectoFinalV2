@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class multas
+    partial class frmMultas
     {
         /// <summary>
         /// Required designer variable.

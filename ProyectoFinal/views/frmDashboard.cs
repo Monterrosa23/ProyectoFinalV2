@@ -1,7 +1,6 @@
 ﻿using MaterialSkin;
 using MaterialSkin;
 using MaterialSkin.Controls;
-using ProyectoFinal.views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,15 +10,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
-namespace ProyectoFinal
+namespace ProyectoFinal.views
 {
-    public partial class frmLogin : MaterialForm
+    public partial class frmDashboard : MaterialForm
     {
-        public frmLogin()
+        public frmDashboard()
         {
             InitializeComponent();
-
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
@@ -30,16 +29,25 @@ namespace ProyectoFinal
                 );
         }
 
-        private void frmLogin_Load(object sender, EventArgs e)
+        private void dashboard_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private void btnPrestamos_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmDashboard menu = new frmDashboard();
-            menu.ShowDialog();
+            frmPrestamo form = new frmPrestamo();
+            form.ShowDialog();
+
+        }
+
+        private void btnLibros_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLibros form = new frmLibros();
+            form.ShowDialog();
+
         }
     }
 }

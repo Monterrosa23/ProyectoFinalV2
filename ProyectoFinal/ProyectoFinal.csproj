@@ -68,11 +68,17 @@
     <Compile Include="controllers\autenticador.cs" />
     <Compile Include="controllers\usuarioController.cs" />
     <Compile Include="data\claseCrud.cs" />
-    <Compile Include="views\frmPrestamos.cs">
+    <Compile Include="views\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\frmPrestamos.Designer.cs">
-      <DependentUpon>frmPrestamos.cs</DependentUpon>
+    <Compile Include="views\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\frmPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmPrestamo.Designer.cs">
+      <DependentUpon>frmPrestamo.cs</DependentUpon>
     </Compile>
     <Compile Include="views\frmEditorial.cs">
       <SubType>Form</SubType>
@@ -106,14 +112,17 @@
     <Compile Include="views\frmLibros.Designer.cs">
       <DependentUpon>frmLibros.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\multas.cs">
+    <Compile Include="views\frmMultas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\multas.Designer.cs">
-      <DependentUpon>multas.cs</DependentUpon>
+    <Compile Include="views\frmMultas.Designer.cs">
+      <DependentUpon>frmMultas.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="views\frmPrestamos.resx">
-      <DependentUpon>frmPrestamos.cs</DependentUpon>
+    <EmbeddedResource Include="views\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmPrestamo.resx">
+      <DependentUpon>frmPrestamo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmEditorial.resx">
       <DependentUpon>frmEditorial.cs</DependentUpon>
@@ -136,8 +145,8 @@
     <EmbeddedResource Include="views\frmLibros.resx">
       <DependentUpon>frmLibros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\multas.resx">
-      <DependentUpon>multas.cs</DependentUpon>
+    <EmbeddedResource Include="views\frmMultas.resx">
+      <DependentUpon>frmMultas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
+using ProyectoFinal.views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,15 +10,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MaterialSkin;
-using MaterialSkin.Controls;
-
 
 namespace WindowsFormsApp1
 {
-    public partial class multas : MaterialForm
+    public partial class frmPrestamo : MaterialForm
     {
-        public multas()
+        public frmPrestamo()
         {
             InitializeComponent();
 
@@ -29,9 +29,29 @@ namespace WindowsFormsApp1
                 );
         }
 
-        private void multas_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void materialLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMultas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMultas form = new frmMultas();
+            form.ShowDialog();
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDashboard form = new frmDashboard();
+            form.ShowDialog();
         }
     }
 }

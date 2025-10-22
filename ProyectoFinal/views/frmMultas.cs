@@ -10,11 +10,12 @@ using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
+
 namespace WindowsFormsApp1
 {
-    public partial class frmPrestamo : MaterialForm
+    public partial class frmMultas : MaterialForm
     {
-        public frmPrestamo()
+        public frmMultas()
         {
             InitializeComponent();
 
@@ -28,12 +29,7 @@ namespace WindowsFormsApp1
                 );
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialLabel7_Click(object sender, EventArgs e)
+        private void multas_Load(object sender, EventArgs e)
         {
 
         }

@@ -35,9 +35,9 @@
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            this.btnAgregar = new MaterialSkin.Controls.MaterialButton();
+            this.btnEditar = new MaterialSkin.Controls.MaterialButton();
+            this.btnEliminar = new MaterialSkin.Controls.MaterialButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -45,11 +45,14 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
+            this.btnLimpiar = new MaterialSkin.Controls.MaterialButton();
+            this.btnConsultar = new MaterialSkin.Controls.MaterialButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.btnVolver = new MaterialSkin.Controls.MaterialButton();
+            this.btnAutores = new MaterialSkin.Controls.MaterialButton();
+            this.btnEditorial = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +61,8 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(125, 116);
+            this.materialLabel2.Location = new System.Drawing.Point(188, 178);
+            this.materialLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(45, 19);
@@ -70,7 +74,8 @@
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(125, 148);
+            this.materialLabel3.Location = new System.Drawing.Point(188, 228);
+            this.materialLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(42, 19);
@@ -82,7 +87,8 @@
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel4.Location = new System.Drawing.Point(117, 181);
+            this.materialLabel4.Location = new System.Drawing.Point(176, 278);
+            this.materialLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(50, 19);
@@ -94,7 +100,8 @@
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel5.Location = new System.Drawing.Point(16, 218);
+            this.materialLabel5.Location = new System.Drawing.Point(24, 335);
+            this.materialLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(151, 19);
@@ -107,7 +114,8 @@
             this.materialLabel6.AutoSize = true;
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel6.Location = new System.Drawing.Point(128, 250);
+            this.materialLabel6.Location = new System.Drawing.Point(192, 385);
+            this.materialLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             this.materialLabel6.Size = new System.Drawing.Size(39, 19);
@@ -119,166 +127,175 @@
             this.materialLabel7.AutoSize = true;
             this.materialLabel7.Depth = 0;
             this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel7.Location = new System.Drawing.Point(108, 290);
+            this.materialLabel7.Location = new System.Drawing.Point(162, 446);
+            this.materialLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             this.materialLabel7.Size = new System.Drawing.Size(59, 19);
             this.materialLabel7.TabIndex = 6;
             this.materialLabel7.Text = "Editorial";
             // 
-            // materialButton1
+            // btnAgregar
             // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(36, 356);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(88, 36);
-            this.materialButton1.TabIndex = 7;
-            this.materialButton1.Text = "AGREGAR";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
+            this.btnAgregar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAgregar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnAgregar.Depth = 0;
+            this.btnAgregar.HighEmphasis = true;
+            this.btnAgregar.Icon = null;
+            this.btnAgregar.Location = new System.Drawing.Point(38, 499);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnAgregar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnAgregar.Size = new System.Drawing.Size(88, 36);
+            this.btnAgregar.TabIndex = 7;
+            this.btnAgregar.Text = "AGREGAR";
+            this.btnAgregar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnAgregar.UseAccentColor = false;
+            this.btnAgregar.UseVisualStyleBackColor = true;
             // 
-            // materialButton2
+            // btnEditar
             // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(145, 356);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(71, 36);
-            this.materialButton2.TabIndex = 8;
-            this.materialButton2.Text = "EDITAR";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
+            this.btnEditar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEditar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnEditar.Depth = 0;
+            this.btnEditar.HighEmphasis = true;
+            this.btnEditar.Icon = null;
+            this.btnEditar.Location = new System.Drawing.Point(155, 499);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnEditar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnEditar.Size = new System.Drawing.Size(71, 36);
+            this.btnEditar.TabIndex = 8;
+            this.btnEditar.Text = "EDITAR";
+            this.btnEditar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnEditar.UseAccentColor = false;
+            this.btnEditar.UseVisualStyleBackColor = true;
             // 
-            // materialButton3
+            // btnEliminar
             // 
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(372, 356);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(88, 36);
-            this.materialButton3.TabIndex = 9;
-            this.materialButton3.Text = "ELIMINAR";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
+            this.btnEliminar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEliminar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnEliminar.Depth = 0;
+            this.btnEliminar.HighEmphasis = true;
+            this.btnEliminar.Icon = null;
+            this.btnEliminar.Location = new System.Drawing.Point(389, 499);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnEliminar.Size = new System.Drawing.Size(88, 36);
+            this.btnEliminar.TabIndex = 9;
+            this.btnEliminar.Text = "ELIMINAR";
+            this.btnEliminar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnEliminar.UseAccentColor = false;
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(201, 116);
+            this.textBox1.Location = new System.Drawing.Point(302, 178);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 20);
+            this.textBox1.Size = new System.Drawing.Size(410, 26);
             this.textBox1.TabIndex = 11;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(201, 148);
+            this.textBox2.Location = new System.Drawing.Point(302, 228);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 20);
+            this.textBox2.Size = new System.Drawing.Size(410, 26);
             this.textBox2.TabIndex = 12;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(201, 181);
+            this.textBox3.Location = new System.Drawing.Point(302, 278);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(275, 20);
+            this.textBox3.Size = new System.Drawing.Size(410, 26);
             this.textBox3.TabIndex = 13;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(201, 217);
+            this.textBox4.Location = new System.Drawing.Point(302, 334);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(275, 20);
+            this.textBox4.Size = new System.Drawing.Size(410, 26);
             this.textBox4.TabIndex = 14;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(201, 249);
+            this.textBox5.Location = new System.Drawing.Point(302, 383);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(275, 20);
+            this.textBox5.Size = new System.Drawing.Size(410, 26);
             this.textBox5.TabIndex = 15;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(201, 290);
+            this.textBox6.Location = new System.Drawing.Point(302, 446);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(275, 20);
+            this.textBox6.Size = new System.Drawing.Size(410, 26);
             this.textBox6.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(524, 74);
+            this.label1.Location = new System.Drawing.Point(786, 114);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 62);
+            this.label1.Size = new System.Drawing.Size(238, 94);
             this.label1.TabIndex = 17;
             this.label1.Text = "GESTION \r\nDE LIBROS";
             // 
-            // materialButton5
+            // btnLimpiar
             // 
-            this.materialButton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton5.Depth = 0;
-            this.materialButton5.HighEmphasis = true;
-            this.materialButton5.Icon = null;
-            this.materialButton5.Location = new System.Drawing.Point(484, 356);
-            this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton5.Name = "materialButton5";
-            this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton5.Size = new System.Drawing.Size(79, 36);
-            this.materialButton5.TabIndex = 19;
-            this.materialButton5.Text = "LIMPIAR";
-            this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton5.UseAccentColor = false;
-            this.materialButton5.UseVisualStyleBackColor = true;
+            this.btnLimpiar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLimpiar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnLimpiar.Depth = 0;
+            this.btnLimpiar.HighEmphasis = true;
+            this.btnLimpiar.Icon = null;
+            this.btnLimpiar.Location = new System.Drawing.Point(502, 499);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnLimpiar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 36);
+            this.btnLimpiar.TabIndex = 19;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLimpiar.UseAccentColor = false;
+            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
-            // materialButton4
+            // btnConsultar
             // 
-            this.materialButton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton4.Depth = 0;
-            this.materialButton4.HighEmphasis = true;
-            this.materialButton4.Icon = null;
-            this.materialButton4.Location = new System.Drawing.Point(237, 356);
-            this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton4.Name = "materialButton4";
-            this.materialButton4.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton4.Size = new System.Drawing.Size(106, 36);
-            this.materialButton4.TabIndex = 10;
-            this.materialButton4.Text = "CONSULTAR";
-            this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton4.UseAccentColor = false;
-            this.materialButton4.UseVisualStyleBackColor = true;
+            this.btnConsultar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnConsultar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnConsultar.Depth = 0;
+            this.btnConsultar.HighEmphasis = true;
+            this.btnConsultar.Icon = null;
+            this.btnConsultar.Location = new System.Drawing.Point(260, 499);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnConsultar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnConsultar.Size = new System.Drawing.Size(106, 36);
+            this.btnConsultar.TabIndex = 10;
+            this.btnConsultar.Text = "CONSULTAR";
+            this.btnConsultar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnConsultar.UseAccentColor = false;
+            this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(520, 148);
+            this.pictureBox1.Location = new System.Drawing.Point(780, 228);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 162);
+            this.pictureBox1.Size = new System.Drawing.Size(298, 249);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
@@ -288,7 +305,8 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(151, 75);
+            this.materialLabel1.Location = new System.Drawing.Point(226, 115);
+            this.materialLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(16, 19);
@@ -297,20 +315,84 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(201, 74);
+            this.textBox7.Location = new System.Drawing.Point(302, 114);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(275, 20);
+            this.textBox7.Size = new System.Drawing.Size(410, 26);
             this.textBox7.TabIndex = 22;
             // 
-            // login
+            // btnVolver
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.btnVolver.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnVolver.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnVolver.Depth = 0;
+            this.btnVolver.HighEmphasis = true;
+            this.btnVolver.Icon = null;
+            this.btnVolver.Location = new System.Drawing.Point(1014, 587);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnVolver.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnVolver.Size = new System.Drawing.Size(76, 36);
+            this.btnVolver.TabIndex = 23;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnVolver.UseAccentColor = false;
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnAutores
+            // 
+            this.btnAutores.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAutores.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnAutores.Depth = 0;
+            this.btnAutores.HighEmphasis = true;
+            this.btnAutores.Icon = null;
+            this.btnAutores.Location = new System.Drawing.Point(916, 587);
+            this.btnAutores.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnAutores.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAutores.Name = "btnAutores";
+            this.btnAutores.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnAutores.Size = new System.Drawing.Size(86, 36);
+            this.btnAutores.TabIndex = 24;
+            this.btnAutores.Text = "Autores";
+            this.btnAutores.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnAutores.UseAccentColor = false;
+            this.btnAutores.UseVisualStyleBackColor = true;
+            this.btnAutores.Click += new System.EventHandler(this.btnAutores_Click);
+            // 
+            // btnEditorial
+            // 
+            this.btnEditorial.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEditorial.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnEditorial.Depth = 0;
+            this.btnEditorial.HighEmphasis = true;
+            this.btnEditorial.Icon = null;
+            this.btnEditorial.Location = new System.Drawing.Point(818, 587);
+            this.btnEditorial.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnEditorial.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEditorial.Name = "btnEditorial";
+            this.btnEditorial.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnEditorial.Size = new System.Drawing.Size(86, 36);
+            this.btnEditorial.TabIndex = 25;
+            this.btnEditorial.Text = "editorial";
+            this.btnEditorial.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnEditorial.UseAccentColor = false;
+            this.btnEditorial.UseVisualStyleBackColor = true;
+            this.btnEditorial.Click += new System.EventHandler(this.btnEditorial_Click);
+            // 
+            // frmLibros
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 414);
+            this.ClientSize = new System.Drawing.Size(1110, 637);
+            this.Controls.Add(this.btnEditorial);
+            this.Controls.Add(this.btnAutores);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.materialButton5);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
@@ -318,18 +400,18 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.materialButton4);
-            this.Controls.Add(this.materialButton3);
-            this.Controls.Add(this.materialButton2);
-            this.Controls.Add(this.materialButton1);
+            this.Controls.Add(this.btnConsultar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.materialLabel6);
             this.Controls.Add(this.materialLabel5);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "login";
+            this.Name = "frmLibros";
+            this.Padding = new System.Windows.Forms.Padding(4, 98, 4, 5);
             this.Text = "LIBROS";
             this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -345,9 +427,9 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
-        private MaterialSkin.Controls.MaterialButton materialButton3;
+        private MaterialSkin.Controls.MaterialButton btnAgregar;
+        private MaterialSkin.Controls.MaterialButton btnEditar;
+        private MaterialSkin.Controls.MaterialButton btnEliminar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -355,11 +437,14 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label1;
-        private MaterialSkin.Controls.MaterialButton materialButton5;
-        private MaterialSkin.Controls.MaterialButton materialButton4;
+        private MaterialSkin.Controls.MaterialButton btnLimpiar;
+        private MaterialSkin.Controls.MaterialButton btnConsultar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private System.Windows.Forms.TextBox textBox7;
+        private MaterialSkin.Controls.MaterialButton btnVolver;
+        private MaterialSkin.Controls.MaterialButton btnAutores;
+        private MaterialSkin.Controls.MaterialButton btnEditorial;
     }
 }
 
