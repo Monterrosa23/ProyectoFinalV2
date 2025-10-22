@@ -11,7 +11,7 @@ namespace ProyectoFinal.data
     class claseCrud
     {
         //Definir la cadena de conexióna
-        private string Cadena = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Jose_\Documents\GitHub\proyectoFinalAppEscritoriov2\ProyectoFinal\ProyectoFinal\database\baseProyecto.mdf;Integrated Security=True";
+        private string Cadena = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= |DataDirectory|\baseProyecto.mdf;Integrated Security=True";
         public SqlConnection Conexion; //conexión abierta con una base de datos de SQL Server.
         private SqlCommandBuilder cmb; //Compilar los cambios generados en una tabla
         public DataSet ds = new DataSet(); //Almacenar datos en memoria
