@@ -68,6 +68,7 @@
     <Compile Include="controllers\autenticador.cs" />
     <Compile Include="controllers\usuarioController.cs" />
     <Compile Include="data\claseCrud.cs" />
+    <Compile Include="helpers\helper.cs" />
     <Compile Include="views\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +163,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="database\baseProyecto.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
