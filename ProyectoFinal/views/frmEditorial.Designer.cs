@@ -41,6 +41,8 @@
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnLibro = new MaterialSkin.Controls.MaterialButton();
+            this.btnVolver = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +51,8 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(105, 123);
+            this.materialLabel1.Location = new System.Drawing.Point(81, 145);
+            this.materialLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(16, 19);
@@ -61,7 +64,8 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(66, 188);
+            this.materialLabel2.Location = new System.Drawing.Point(81, 251);
+            this.materialLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(66, 19);
@@ -73,7 +77,8 @@
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(81, 246);
+            this.materialLabel3.Location = new System.Drawing.Point(81, 333);
+            this.materialLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(40, 19);
@@ -82,23 +87,26 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(181, 123);
+            this.textBox1.Location = new System.Drawing.Point(231, 145);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 20);
+            this.textBox1.Size = new System.Drawing.Size(326, 26);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(181, 188);
+            this.textBox2.Location = new System.Drawing.Point(231, 245);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(219, 20);
+            this.textBox2.Size = new System.Drawing.Size(326, 26);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(181, 245);
+            this.textBox3.Location = new System.Drawing.Point(231, 333);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(219, 20);
+            this.textBox3.Size = new System.Drawing.Size(326, 26);
             this.textBox3.TabIndex = 5;
             // 
             // materialButton4
@@ -108,8 +116,8 @@
             this.materialButton4.Depth = 0;
             this.materialButton4.HighEmphasis = true;
             this.materialButton4.Icon = null;
-            this.materialButton4.Location = new System.Drawing.Point(398, 318);
-            this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton4.Location = new System.Drawing.Point(478, 455);
+            this.materialButton4.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton4.Name = "materialButton4";
             this.materialButton4.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -127,8 +135,8 @@
             this.materialButton3.Depth = 0;
             this.materialButton3.HighEmphasis = true;
             this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(290, 318);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton3.Location = new System.Drawing.Point(331, 455);
+            this.materialButton3.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton3.Name = "materialButton3";
             this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -146,8 +154,8 @@
             this.materialButton2.Depth = 0;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(193, 318);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.Location = new System.Drawing.Point(201, 455);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton2.Name = "materialButton2";
             this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -165,8 +173,8 @@
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(69, 318);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton1.Location = new System.Drawing.Point(59, 455);
+            this.materialButton1.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -181,27 +189,71 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(511, 103);
+            this.label1.Location = new System.Drawing.Point(766, 158);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 39);
+            this.label1.Size = new System.Drawing.Size(305, 61);
             this.label1.TabIndex = 15;
             this.label1.Text = "EDITORIAL";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(508, 175);
+            this.pictureBox1.Location = new System.Drawing.Point(762, 269);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 165);
+            this.pictureBox1.Size = new System.Drawing.Size(302, 254);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
-            // Form3
+            // btnLibro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.btnLibro.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLibro.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnLibro.Depth = 0;
+            this.btnLibro.HighEmphasis = true;
+            this.btnLibro.Icon = null;
+            this.btnLibro.Location = new System.Drawing.Point(735, 623);
+            this.btnLibro.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnLibro.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLibro.Name = "btnLibro";
+            this.btnLibro.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnLibro.Size = new System.Drawing.Size(71, 36);
+            this.btnLibro.TabIndex = 17;
+            this.btnLibro.Text = "libros";
+            this.btnLibro.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLibro.UseAccentColor = false;
+            this.btnLibro.UseVisualStyleBackColor = true;
+            this.btnLibro.Click += new System.EventHandler(this.btnLibro_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnVolver.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnVolver.Depth = 0;
+            this.btnVolver.HighEmphasis = true;
+            this.btnVolver.Icon = null;
+            this.btnVolver.Location = new System.Drawing.Point(880, 623);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnVolver.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnVolver.Size = new System.Drawing.Size(188, 36);
+            this.btnVolver.TabIndex = 18;
+            this.btnVolver.Text = "volver al dashboard";
+            this.btnVolver.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnVolver.UseAccentColor = false;
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // frmEditorial
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnLibro);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.materialButton4);
@@ -214,7 +266,9 @@
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
-            this.Name = "Form3";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmEditorial";
+            this.Padding = new System.Windows.Forms.Padding(4, 98, 4, 5);
             this.Text = "EDITORIAL";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -237,5 +291,7 @@
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private MaterialSkin.Controls.MaterialButton btnLibro;
+        private MaterialSkin.Controls.MaterialButton btnVolver;
     }
 }

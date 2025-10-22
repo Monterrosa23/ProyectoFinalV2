@@ -161,7 +161,7 @@
             this.btnEditar.Depth = 0;
             this.btnEditar.HighEmphasis = true;
             this.btnEditar.Icon = null;
-            this.btnEditar.Location = new System.Drawing.Point(155, 499);
+            this.btnEditar.Location = new System.Drawing.Point(179, 499);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnEditar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEditar.Name = "btnEditar";
@@ -180,7 +180,7 @@
             this.btnEliminar.Depth = 0;
             this.btnEliminar.HighEmphasis = true;
             this.btnEliminar.Icon = null;
-            this.btnEliminar.Location = new System.Drawing.Point(389, 499);
+            this.btnEliminar.Location = new System.Drawing.Point(492, 499);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEliminar.Name = "btnEliminar";
@@ -258,7 +258,7 @@
             this.btnLimpiar.Depth = 0;
             this.btnLimpiar.HighEmphasis = true;
             this.btnLimpiar.Icon = null;
-            this.btnLimpiar.Location = new System.Drawing.Point(502, 499);
+            this.btnLimpiar.Location = new System.Drawing.Point(644, 499);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnLimpiar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnLimpiar.Name = "btnLimpiar";
@@ -277,7 +277,7 @@
             this.btnConsultar.Depth = 0;
             this.btnConsultar.HighEmphasis = true;
             this.btnConsultar.Icon = null;
-            this.btnConsultar.Location = new System.Drawing.Point(260, 499);
+            this.btnConsultar.Location = new System.Drawing.Point(302, 499);
             this.btnConsultar.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnConsultar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnConsultar.Name = "btnConsultar";
@@ -328,7 +328,7 @@
             this.btnVolver.Depth = 0;
             this.btnVolver.HighEmphasis = true;
             this.btnVolver.Icon = null;
-            this.btnVolver.Location = new System.Drawing.Point(1014, 587);
+            this.btnVolver.Location = new System.Drawing.Point(983, 587);
             this.btnVolver.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnVolver.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnVolver.Name = "btnVolver";
@@ -348,7 +348,7 @@
             this.btnAutores.Depth = 0;
             this.btnAutores.HighEmphasis = true;
             this.btnAutores.Icon = null;
-            this.btnAutores.Location = new System.Drawing.Point(916, 587);
+            this.btnAutores.Location = new System.Drawing.Point(840, 587);
             this.btnAutores.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnAutores.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnAutores.Name = "btnAutores";
@@ -368,12 +368,12 @@
             this.btnEditorial.Depth = 0;
             this.btnEditorial.HighEmphasis = true;
             this.btnEditorial.Icon = null;
-            this.btnEditorial.Location = new System.Drawing.Point(818, 587);
+            this.btnEditorial.Location = new System.Drawing.Point(689, 587);
             this.btnEditorial.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnEditorial.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEditorial.Name = "btnEditorial";
             this.btnEditorial.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnEditorial.Size = new System.Drawing.Size(86, 36);
+            this.btnEditorial.Size = new System.Drawing.Size(94, 36);
             this.btnEditorial.TabIndex = 25;
             this.btnEditorial.Text = "editorial";
             this.btnEditorial.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -385,7 +385,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1110, 637);
+            this.ClientSize = new System.Drawing.Size(1134, 664);
             this.Controls.Add(this.btnEditorial);
             this.Controls.Add(this.btnAutores);
             this.Controls.Add(this.btnVolver);

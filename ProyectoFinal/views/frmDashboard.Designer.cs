@@ -38,9 +38,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(178, 96);
+            this.label1.Location = new System.Drawing.Point(175, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 69);
+            this.label1.Size = new System.Drawing.Size(217, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bienvenido";
             // 
@@ -48,7 +48,7 @@
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(389, 96);
+            this.lblUser.Location = new System.Drawing.Point(422, 122);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(158, 46);
             this.lblUser.TabIndex = 1;

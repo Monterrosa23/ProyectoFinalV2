@@ -1,4 +1,7 @@
-﻿using System;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
+using ProyectoFinal.views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,8 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MaterialSkin;
-using MaterialSkin.Controls;
 
 namespace ProyectoFinal
 {
@@ -30,6 +31,20 @@ namespace ProyectoFinal
         private void Form3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDashboard form = new frmDashboard();
+            form.ShowDialog();
+        }
+
+        private void btnLibro_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLibros form = new frmLibros();
+            form.ShowDialog();
         }
     }
 }
